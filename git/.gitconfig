@@ -1,0 +1,11 @@
+[user]
+        name = 
+        email = 
+[alias]
+        tree = log --all --graph --decorate=short --color --format=format:'%C(bold blue)%h%C(reset) -- %C(green)(%cr)%C(reset) - %C(bold yellow)%d%C(reset) - %C(dim yellow)%an%C(reset) \n %C(white)%s%C(reset)'
+        merge-diff = !bash -c 'git diff $(git merge-base $1 $2) $2 ${@: 3} ' -
+[push]
+        default = matching
+[core]
+        autocrlf = false
+		eol=lf
