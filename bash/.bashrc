@@ -7,5 +7,11 @@ alias gb='git branch'
 alias gmd='git merge-diff'
 alias ..='cd ..'
 alias ...='cd ../..'
-alias dev='cd /c/dev/'
+alias dev='cd /cygdrive/c/dev/'
 alias vim='vim -b'
+alias vagssh='vagrant ssh -c "sudo bash"'
+alias vagup="vagrant up"
+alias gmd="git merge-diff"
+alias gmdm="git merge-diff master"
+alias lsa="ls -lart"
+
