@@ -13,4 +13,5 @@ alias vagssh='vagrant ssh -c "sudo bash"'
 alias vagup="vagrant up"
 alias gmd="git merge-diff"
 alias gmdm="git merge-diff master"
-alias lsa="ls -lart
+alias lsa="ls -lart"
+alias grh="git reset --hard"
