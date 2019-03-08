@@ -15,3 +15,6 @@ alias gmd="git merge-diff"
 alias gmdm="git merge-diff master"
 alias lsa="ls -lart"
 alias grh="git reset --hard"
+alias gpo='git push origin'
+alias gcb='git rev-parse --abbrev-ref HEAD'
+alias gmdmc='gmdm (gcb)'
